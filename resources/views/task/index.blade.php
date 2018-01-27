@@ -9,7 +9,10 @@
 <body>
     <ul>
         @foreach ($tasks as $task)
-            <li>{{$task->body}}</li>
+
+            <a href="task/{{ $task->id }}">
+                <li>{{$task->body}}</li>
+            </a>
         @endforeach
     </ul>
     
