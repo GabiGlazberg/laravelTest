@@ -23,16 +23,9 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
+            "App\\": "app/",
             "Tests\\": "tests/"
-        },
-        "classmap": [
-            "tests/TestCase.php"
-        ]
+        }
     },
     "extra": {
         "laravel": {
